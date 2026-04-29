@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import api from "../../api";
+import api from "../api";
 import { Clock, Search, Flame, ArrowUpRight, TrendingUp } from "lucide-react";
 import Header from "../Components/Header";
 import { Link } from "react-router-dom";

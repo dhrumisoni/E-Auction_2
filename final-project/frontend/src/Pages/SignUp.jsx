@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import api from "../../api";
+import api from "../api";
 import { useNavigate } from "react-router-dom";
 import { Search, User, Mail, Phone, Lock, Eye, EyeOff, MapPin, Camera, X, ArrowRight, ArrowLeft } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";

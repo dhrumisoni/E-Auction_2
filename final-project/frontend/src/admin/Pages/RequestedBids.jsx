@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import api from "../../../api";
+import api from "../../api";
 import {
   CheckCircle,
   XCircle,

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import api from "../../../api";
+import api from "../../api";
 import { useNavigate } from "react-router-dom";
 import { Shield, Lock, Mail, ArrowLeft, LogIn } from "lucide-react";
 import { motion } from "framer-motion";

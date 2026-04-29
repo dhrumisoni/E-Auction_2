@@ -1,6 +1,6 @@
 // src/admin/Pages/ActiveBidDetails.jsx
 import { useParams, useNavigate } from "react-router-dom";
-import api from "../../../api";
+import api from "../../api";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 

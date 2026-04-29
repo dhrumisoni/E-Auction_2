@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import api from "../../../api";
+import api from "../../api";
 import { Mail, User, Clock, Trash2, CheckCircle, Search, Filter, Inbox as InboxIcon, ArrowRight, X, Send } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import toast from "react-hot-toast";

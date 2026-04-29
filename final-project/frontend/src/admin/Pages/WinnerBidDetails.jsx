@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { ArrowLeft, Download, CheckCircle, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 import axios from "axios";
-import api from "../../../api";
+import api from "../../api";
 
 export default function WinnerBidDetails() {
   const { id } = useParams();

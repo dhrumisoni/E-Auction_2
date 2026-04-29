@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import api from "../../../api";
+import api from "../../api";
 
 const RequestedUsers = () => {
   const [search, setSearch] = useState("");

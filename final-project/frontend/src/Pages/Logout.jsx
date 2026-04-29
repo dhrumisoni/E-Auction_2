@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import api from "../../api";
+import api from "../api";
 import { AuthContext } from "../../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
 

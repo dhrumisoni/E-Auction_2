@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import api from "../../../api";
+import api from "../../api";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 

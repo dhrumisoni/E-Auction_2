@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import api from "../../../api";
+import api from "../../api";
 
 export default function ActiveBids() {
   const [bids, setBids] = useState([]);

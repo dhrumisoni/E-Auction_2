@@ -1,5 +1,5 @@
 import { useState } from "react";
-import api from "../../api";
+import api from "../api";
 import { useNavigate } from "react-router-dom";
 import { 
   Mail, Phone, MapPin, Send, ArrowLeft, User, MessageSquare, Globe, Clock 

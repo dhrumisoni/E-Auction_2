@@ -2,7 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import axios from "axios";
-import api from "../../../api";
+import api from "../../api";
 
 export default function UserDetails() {
   const { id } = useParams();

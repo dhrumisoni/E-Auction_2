@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect } from "react";
-import api from "../../api";
+import api from "../api";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthContext";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";

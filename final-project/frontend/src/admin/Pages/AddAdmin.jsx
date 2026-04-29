@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import api from "../../../api";
+import api from "../../api";
 
 export default function AddAdmin() {
   const navigate = useNavigate();
