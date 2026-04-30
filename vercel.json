@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "installCommand": "cd final-project/backend && npm install",
   "builds": [
     {
       "src": "final-project/backend/index.js",
