@@ -2,23 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "final-project/backend/index.js",
-      "use": "@vercel/node"
+      "src": "final-project/backend/package.json",
+      "use": "@vercel/node",
+      "config": {
+        "distDir": "final-project/backend"
+      }
     }
   ],
   "routes": [
-    {
-      "src": "/auth/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
-    {
-      "src": "/bid/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
-    {
-      "src": "/admin/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
     {
       "src": "/(.*)",
       "dest": "final-project/backend/index.js"
