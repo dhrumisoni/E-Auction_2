@@ -1,8 +1,42 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "final-project/frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    },
+    {
+      "src": "final-project/backend/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/auth/(.*)",
+      "dest": "final-project/backend/index.js"
+    },
+    {
+      "src": "/bid/(.*)",
+      "dest": "final-project/backend/index.js"
+    },
+    {
+      "src": "/admin/(.*)",
+      "dest": "final-project/backend/index.js"
+    },
+    {
+      "src": "/userPaymentsForBid/(.*)",
+      "dest": "final-project/backend/index.js"
+    },
+    {
+      "src": "/ai/(.*)",
+      "dest": "final-project/backend/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "final-project/frontend/dist/index.html"
     }
   ]
 }
