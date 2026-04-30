@@ -14,29 +14,11 @@
     }
   ],
   "routes": [
-    {
-      "src": "/auth/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
-    {
-      "src": "/bid/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
-    {
-      "src": "/admin/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
-    {
-      "src": "/userPaymentsForBid/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
-    {
-      "src": "/ai/(.*)",
-      "dest": "final-project/backend/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "final-project/frontend/dist/index.html"
-    }
+    { "src": "/auth/(.*)", "dest": "final-project/backend/index.js" },
+    { "src": "/bid/(.*)", "dest": "final-project/backend/index.js" },
+    { "src": "/admin/(.*)", "dest": "final-project/backend/index.js" },
+    { "src": "/userPaymentsForBid/(.*)", "dest": "final-project/backend/index.js" },
+    { "src": "/ai/(.*)", "dest": "final-project/backend/index.js" },
+    { "src": "/(.*)", "dest": "final-project/frontend/dist/index.html" }
   ]
 }
